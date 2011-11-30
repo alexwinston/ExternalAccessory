@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* ExternalAccessory_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ExternalAccessory_Prefix.pch */; };
+		BE270A051030D54700A8A7CB /* EAAccessoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BE270A031030D54700A8A7CB /* EAAccessoryManager.h */; };
+		BE270A061030D54700A8A7CB /* EAAccessoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE270A041030D54700A8A7CB /* EAAccessoryManager.m */; };
+		BE766DF410389AA300254D9D /* EAOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = BE766DF210389AA300254D9D /* EAOutputStream.m */; };
+		BE766E4A1038A55500254D9D /* EAAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE766E481038A55500254D9D /* EAAudioPlayer.m */; };
+		BE766E891038A6BD00254D9D /* EAAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = BE766E871038A6BD00254D9D /* EAAudioRecorder.m */; };
+		BE766EE61038F54400254D9D /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = BE766EE41038F54400254D9D /* NSMutableArray+Queue.m */; };
+		BEAA9C1A103AF26F001DEBE0 /* EAInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAA9C18103AF26F001DEBE0 /* EAInputStream.h */; };
+		BEAA9C1B103AF26F001DEBE0 /* EAInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAA9C19103AF26F001DEBE0 /* EAInputStream.m */; };
+		BEC1B47610346FF400D18C4F /* EAAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC1B47410346FF400D18C4F /* EAAccessory.h */; };
+		BEC1B47710346FF400D18C4F /* EAAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B47510346FF400D18C4F /* EAAccessory.m */; };
+		BEC1B49D103471BE00D18C4F /* EAAccessoryInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B49B103471BE00D18C4F /* EAAccessoryInternal.m */; };
+		BEC1B4AC103479CC00D18C4F /* EASession.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC1B4AA103479CC00D18C4F /* EASession.h */; };
+		BEC1B4AD103479CC00D18C4F /* EASession.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B4AB103479CC00D18C4F /* EASession.m */; };
+		BEC1B4FE10347D2300D18C4F /* ExternalAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC1B4FD10347D2300D18C4F /* ExternalAccessory.h */; };
+		BEDBFAD011AAF32C005B7FB2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDBFACF11AAF32C005B7FB2 /* AudioToolbox.framework */; };
+		BEDBFAD211AAF334005B7FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDBFAD111AAF334005B7FB2 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* ExternalAccessory_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalAccessory_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		BE270A031030D54700A8A7CB /* EAAccessoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAAccessoryManager.h; path = Classes/EAAccessoryManager.h; sourceTree = "<group>"; };
+		BE270A041030D54700A8A7CB /* EAAccessoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAAccessoryManager.m; path = Classes/EAAccessoryManager.m; sourceTree = "<group>"; };
+		BE270A0D1030D59B00A8A7CB /* ExternalAccessoryTestsBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExternalAccessoryTestsBundle-Info.plist"; sourceTree = "<group>"; };
+		BE766DF110389AA300254D9D /* EAOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAOutputStream.h; sourceTree = "<group>"; };
+		BE766DF210389AA300254D9D /* EAOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAOutputStream.m; sourceTree = "<group>"; };
+		BE766E471038A55500254D9D /* EAAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAudioPlayer.h; sourceTree = "<group>"; };
+		BE766E481038A55500254D9D /* EAAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAudioPlayer.m; sourceTree = "<group>"; };
+		BE766E861038A6BD00254D9D /* EAAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAudioRecorder.h; sourceTree = "<group>"; };
+		BE766E871038A6BD00254D9D /* EAAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAudioRecorder.m; sourceTree = "<group>"; };
+		BE766EE31038F54400254D9D /* NSMutableArray+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Queue.h"; sourceTree = "<group>"; };
+		BE766EE41038F54400254D9D /* NSMutableArray+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Queue.m"; sourceTree = "<group>"; };
+		BEAA9C18103AF26F001DEBE0 /* EAInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAInputStream.h; sourceTree = "<group>"; };
+		BEAA9C19103AF26F001DEBE0 /* EAInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAInputStream.m; sourceTree = "<group>"; };
+		BEC1B11810331C0700D18C4F /* ExternalAccessoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExternalAccessoryTests-Info.plist"; sourceTree = "<group>"; };
+		BEC1B47410346FF400D18C4F /* EAAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAccessory.h; sourceTree = "<group>"; };
+		BEC1B47510346FF400D18C4F /* EAAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAccessory.m; sourceTree = "<group>"; };
+		BEC1B49A103471BE00D18C4F /* EAAccessoryInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAccessoryInternal.h; sourceTree = "<group>"; };
+		BEC1B49B103471BE00D18C4F /* EAAccessoryInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAccessoryInternal.m; sourceTree = "<group>"; };
+		BEC1B4AA103479CC00D18C4F /* EASession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASession.h; sourceTree = "<group>"; };
+		BEC1B4AB103479CC00D18C4F /* EASession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASession.m; sourceTree = "<group>"; };
+		BEC1B4FD10347D2300D18C4F /* ExternalAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalAccessory.h; sourceTree = "<group>"; };
+		BEDBFACF11AAF32C005B7FB2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		BEDBFAD111AAF334005B7FB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D2AAC07E0554694100DB518D /* libExternalAccessory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libExternalAccessory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDBFAD011AAF32C005B7FB2 /* AudioToolbox.framework in Frameworks */,
+				BEDBFAD211AAF334005B7FB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libExternalAccessory.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* ExternalAccessory */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				BE270A0D1030D59B00A8A7CB /* ExternalAccessoryTestsBundle-Info.plist */,
+				BEC1B11810331C0700D18C4F /* ExternalAccessoryTests-Info.plist */,
+			);
+			name = ExternalAccessory;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBFACF11AAF32C005B7FB2 /* AudioToolbox.framework */,
+				BEDBFAD111AAF334005B7FB2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BEC1B4FD10347D2300D18C4F /* ExternalAccessory.h */,
+				BE270A031030D54700A8A7CB /* EAAccessoryManager.h */,
+				BE270A041030D54700A8A7CB /* EAAccessoryManager.m */,
+				BEC1B47410346FF400D18C4F /* EAAccessory.h */,
+				BEC1B47510346FF400D18C4F /* EAAccessory.m */,
+				BEC1B49A103471BE00D18C4F /* EAAccessoryInternal.h */,
+				BEC1B49B103471BE00D18C4F /* EAAccessoryInternal.m */,
+				BEC1B4AA103479CC00D18C4F /* EASession.h */,
+				BEC1B4AB103479CC00D18C4F /* EASession.m */,
+				BEAA9C18103AF26F001DEBE0 /* EAInputStream.h */,
+				BEAA9C19103AF26F001DEBE0 /* EAInputStream.m */,
+				BE766DF110389AA300254D9D /* EAOutputStream.h */,
+				BE766DF210389AA300254D9D /* EAOutputStream.m */,
+				BE766E471038A55500254D9D /* EAAudioPlayer.h */,
+				BE766E481038A55500254D9D /* EAAudioPlayer.m */,
+				BE766E861038A6BD00254D9D /* EAAudioRecorder.h */,
+				BE766E871038A6BD00254D9D /* EAAudioRecorder.m */,
+				BE766EE31038F54400254D9D /* NSMutableArray+Queue.h */,
+				BE766EE41038F54400254D9D /* NSMutableArray+Queue.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ExternalAccessory_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* ExternalAccessory_Prefix.pch in Headers */,
+				BE270A051030D54700A8A7CB /* EAAccessoryManager.h in Headers */,
+				BEC1B47610346FF400D18C4F /* EAAccessory.h in Headers */,
+				BEC1B4AC103479CC00D18C4F /* EASession.h in Headers */,
+				BEC1B4FE10347D2300D18C4F /* ExternalAccessory.h in Headers */,
+				BEAA9C1A103AF26F001DEBE0 /* EAInputStream.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* ExternalAccessory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ExternalAccessory" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExternalAccessory;
+			productName = ExternalAccessory;
+			productReference = D2AAC07E0554694100DB518D /* libExternalAccessory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ExternalAccessory" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* ExternalAccessory */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* ExternalAccessory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE270A061030D54700A8A7CB /* EAAccessoryManager.m in Sources */,
+				BEC1B47710346FF400D18C4F /* EAAccessory.m in Sources */,
+				BEC1B49D103471BE00D18C4F /* EAAccessoryInternal.m in Sources */,
+				BEC1B4AD103479CC00D18C4F /* EASession.m in Sources */,
+				BE766DF410389AA300254D9D /* EAOutputStream.m in Sources */,
+				BE766E4A1038A55500254D9D /* EAAudioPlayer.m in Sources */,
+				BE766E891038A6BD00254D9D /* EAAudioRecorder.m in Sources */,
+				BE766EE61038F54400254D9D /* NSMutableArray+Queue.m in Sources */,
+				BEAA9C1B103AF26F001DEBE0 /* EAInputStream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/ExternalAccessory.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ExternalAccessory_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ExternalAccessory;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ExternalAccessory.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ExternalAccessory_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = ExternalAccessory;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+		BE5566DF1061E546003D54EC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Distribution;
+		};
+		BE5566E01061E546003D54EC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/ExternalAccessory.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ExternalAccessory_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ExternalAccessory;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ExternalAccessory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+				BE5566E01061E546003D54EC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ExternalAccessory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+				BE5566DF1061E546003D54EC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
